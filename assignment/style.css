@@ -35,7 +35,7 @@ body {
     height: 40px;
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: circle;
     display: flex;
 }
 .nav_li {
@@ -51,11 +51,16 @@ body {
 .nav_a:hover {
     color: #B4B4DC;
 }
+.nav_ul img {
+    max-width: 40px;
+    max-height: 40px;
+}
 /*-------------main-------------*/
 .main {
     margin-bottom: 50px;
 }
 .main_box {
+    margin-bottom: 0.5rem;
     display: flex;
 }
 .main_img {
@@ -64,7 +69,7 @@ body {
 }
 .main_img img {
     max-width: 600px;
-    max-height: 406px;
+    max-height: 400px;
 }
 .main_item1 {
     max-width: 300px;
@@ -78,11 +83,46 @@ body {
     border: black solid;
 }
 .main p {
+    margin-top: 0.5rem;
     margin-left: 0.3rem;
     line-height: 2.2rem;
 }
-/*-------------subject1-------------*/
-
+/*-------------subject-------------*/
+.sub_item1 {
+    max-width: 600px;
+    max-height: 400px;
+    border: black solid;
+    margin-right: 0.5rem;
+}
+.sub_item2 {
+    max-width: 600px;
+    max-height: 400px;
+    border: black solid;
+    margin-left: 0.5rem;
+}
+.sub {
+    border: black solid;
+}
+.sub_table {
+    border: black solid;
+    width: 100%;
+}
+.equi {
+    text-align: center;
+}
+.explain {
+    padding: 0 0.5rem;
+}
+.sub_table th, td, tr {
+    border: 1px black solid;
+}
+.four {
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 1rem;
+    position: relative;
+    bottom: 10px;
+}
 /*-------------footer-------------*/
 .void {
     width: 100%;
